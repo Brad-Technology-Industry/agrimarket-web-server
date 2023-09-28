@@ -1,6 +1,6 @@
 /* Default tailwindcss */
 
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -63,5 +63,5 @@
 
 .input-btn {
     @apply  focus:ring-0 bg-transparent border-0 text-sm text-green-500 italic ;
-}
+} */
 
