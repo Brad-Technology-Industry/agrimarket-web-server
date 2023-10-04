@@ -1,0 +1,95 @@
+.Carousle{
+    width: 60%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    background-color: rgb(202, 189, 189);
+    box-shadow: -11px 0px 43px -2px rgba(0,0,0,0.57);
+    -webkit-box-shadow: -11px 0px 43px -2px rgba(0,0,0,0.57);
+    -moz-box-shadow: -11px 0px 43px -2px rgba(0,0,0,0.57);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    gap: 0.2rem;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation: backgroundAnimation 10s linear infinite;
+}
+
+@keyframes backgroundAnimation{
+    0%{
+        background-color: #554e4e;
+    }
+    50%{
+        background-color: #a5723a;
+    }
+    100%{
+        background-color: #494921;
+    }
+}
+
+button{
+    background-color: rgb(37, 32, 32);
+    height: 20px;
+    margin-top: 150px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body {
+    background-color: white;
+}
+
+.Review{
+    text-align: center;
+}
+
+h2{
+    margin-top: 5px;
+    text-align: center;
+}
+
+img{
+    border-radius: 60%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+.CarousleContainer{
+    margin-top: 12px;
+    height: 60vh;
+    display: flex;
+    margin-top: 12px;
+    display: flex;
+    gap: 0.2rem;
+    width: 20rem;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-align: 1.7rem;
+}
+
+.CarousleItem .List{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(89, 87, 87);
+    height: 17rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}    
+
