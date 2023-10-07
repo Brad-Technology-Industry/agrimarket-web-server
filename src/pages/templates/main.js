@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 const openMenu = document.querySelector('#openMenu');
 const navBarMobile = document.querySelector('#navBarMobile');
 const closeMenu = document.querySelector('#closeMenu');

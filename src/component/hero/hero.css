@@ -1,0 +1,69 @@
+.hero-container {
+   background-color: #fef3d7;
+   border-bottom-right-radius: 100% 30%;
+   display: flex;
+   gap: 2rem;
+   margin: auto;
+   width: 85%;
+   margin-bottom: 10px;
+
+   height: 80vh;
+}
+
+.startup-section {
+   padding: 64px;
+   max-width: 50%;
+   line-height: 1px;
+}
+.startup-section h2 {
+   font-size: 3.75rem;
+   font-weight: 900;
+   line-height: 1;
+   letter-spacing: 0.05em;
+   margin-bottom: 2rem;
+}
+
+.startup-section p {
+   margin-bottom: 2rem;
+   padding-top: 0px;
+}
+
+.hero-btn {
+   display: flex;
+   gap: 2rem;
+}
+
+.startup-section .startup-btn {
+   border-style: none;
+   border-radius: 5px;
+   color: #fff;
+   font-weight: 700;
+   background-color: rgba(5, 167, 105, 0.966);
+   padding: 14px 24px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+
+.startup-section .sales-btn {
+   background-color: orange;
+   border-style: none;
+   border-radius: 5px;
+   color: #fff;
+   font-weight: 700;
+   padding: 14px 24px;
+}
+
+/* .farmer-img{
+    background-image: url(./text-img.png);
+    max-width: 50%;
+
+} */
+
+.farmer-img {
+   background-image: url(../../assets/senior-woman-with-vegetables.png);
+   display: auto;
+   height: 100px;
+   width: 100px;
+}

@@ -1,0 +1,173 @@
+.footer-container {
+   background: rgba(220, 230, 207, 0.548);
+   padding-top: 100px;
+   width: 85%;
+   margin: auto;
+   border-top-left-radius: 95% 40%;
+}
+
+.subscription-box {
+   align-items: flex-end;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   line-height: 12px;
+   padding-right: 100px;
+}
+
+.subscription-text-p {
+   font-size: 14px;
+   padding: 2px 10px;
+}
+
+/* input email  and subscription button*/
+.subscription-input-box {
+   display: flex;
+   gap: 1.2rem;
+   align-items: left;
+}
+
+.subscription-input-box input {
+   border-radius: 5px;
+   border-style: none;
+   font-style: italic;
+   padding: 15px 30px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+
+.subscription-input-box button {
+   border-style: none;
+   background-color: rgb(49, 165, 121);
+   border-radius: 6px;
+   color: #ffffff;
+   padding-inline: 20px;
+   font-weight: 800;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   -ms-border-radius: 6px;
+   -o-border-radius: 6px;
+}
+
+/* Farmino info, features, solution and contact section */
+.footer-details {
+   display: flex;
+   padding: 40px 5%;
+}
+
+.info-boxes {
+   flex-basis: 100%;
+}
+
+.footer-text h5,
+.footer-icons {
+   color: rgb(32, 175, 103);
+   font-weight: 900;
+}
+
+.footer-text p {
+   font-size: 14px;
+   padding-right: 30%;
+}
+
+.footer-text .footer-icons,
+.footer-icons a {
+   color: rgb(32, 175, 103);
+   display: flex;
+   flex-direction: row;
+   gap: 2.5rem;
+   list-style: none;
+   text-decoration: none;
+}
+
+/* features and solutions */
+
+.features-solutions {
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+}
+
+.features-solutions .features a,
+.features-solutions .solutions a {
+   color: #000;
+   text-decoration: none;
+}
+
+.features-solutions .features a:hover,
+.features-solutions .solutions a:hover {
+   color: rgb(32, 175, 103);
+}
+
+.features-solutions .features li,
+.features-solutions .solutions li {
+   line-height: 2rem;
+   list-style: none;
+   font-size: 14px;
+}
+
+/* contacts section */
+
+.contact li,
+.contact a {
+   color: #000;
+   font-size: 14px;
+   line-height: 2rem;
+   list-style: none;
+   text-decoration: none;
+}
+
+.contact a:hover {
+   color: rgb(32, 175, 103);
+}
+
+/* copy Rights */
+
+.copyright {
+   text-align: center;
+   font-size: 12px;
+   padding-block: 25px;
+}
+
+/* mobile footer view */
+
+@media screen and (max-width: 1170px) {
+   .footer-container {
+      width: 95%;
+      border-top-left-radius: 95% 40%;
+   }
+   .subscription-box {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+   }
+   .subscription-text-bold {
+      line-height: 1rem;
+   }
+
+   .subscription-input-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      align-items: center;
+   }
+   .subscription-input-box button {
+      padding-block: 15px;
+   }
+
+   .footer-details {
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   .info-boxes {
+      flex-basis: 1;
+      flex-wrap: wrap;
+   }
+   .footer-text p {
+      font-size: 14px;
+      padding-right: 0;
+   }
+}
